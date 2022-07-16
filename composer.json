@@ -1,0 +1,32 @@
+{
+    "name": "hacoidev/vietphimtv-theme",
+    "description": "Ophim's theme",
+    "type": "library",
+    "authors": [
+        {
+            "name": "hacoidev",
+            "email": "hacoi.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^6|^7|^8"
+    },
+    "require-dev": {
+        "backpack/generators": "^3",
+        "laracasts/generators": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ophim\\Theme\\VietPhimTV\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ophim\\Theme\\VietPhimTV\\ThemeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
